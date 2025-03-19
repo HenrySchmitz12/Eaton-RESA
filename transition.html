@@ -6,51 +6,60 @@
 <meta charset="utf-8">
 <title>my index page</title>
 <style>
-    body{
-        background-color: rgb(187, 34, 34);
-    }
-    a{
-        color: rgb(9, 103, 186);
-    }
-
-    body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; 
-    }
-
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+#one{
+    width: 100px;
+    height: 100px;
+    margin-left: 260px;
+    margin-top: 260px;
+    background: rgb(92, 195, 239);
+    border: 3px solid rgb(164, 164, 221);
+    transition: background 1s, border 1s, transform 1s;
 }
-li a{
-    display: block;
-    background-color: rgb(111, 36, 36);
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border-radius: 5px;
+#one:hover{
+    background: rgb(89, 89, 209);
+    border: 3px solid navy;
+    transform: rotate(135deg) scale(3);
 }
-li a:hover{
-    color: rgb(186, 12, 12);
+
+#two{
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 50px;
+    background: rgb(94, 239, 92);
+    border: 3px solid rgb(119, 184, 106);
+    transition: background 1s, border 1s, transform 1s;
+}
+#two:hover{
+    background: rgb(39, 165, 54);
+    border: 3px solid rgb(13, 144, 26);
+    transform: rotate(135deg) scale(3);
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    margin-top: -110px;
+    margin-left: 475px;
+    background: rgb(208, 87, 87);
+    border: 3px solid rgb(163, 54, 54);
+    transition: background 1s, border 1s, transform 1s;
+}
+#three:hover{
+    background: rgb(139, 17, 17);
+    border: 3px solid rgb(91, 4, 4);
+    transform: rotate(135deg) scale(3);
 }
 
 </style>
 </head>
             
 <body>
-<h1>HenryS01 Portfolio</h1>
+    <p><a href=index.html>return</a></p>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
 </body>
-<hr>
-<h2>Pages</h2>
-<hr>
-<ul>
-    <li><a href=text.html>Page 1, formatting</li>
-    <li><a href=class-id.html>Page 2, colores en espanol</li>
-    <li><a href=boxes.html>Page 3, boxes</li>
-    <li><a href=links.html>Page 4, stylized links</li>
-</ul>
-
-<img src="cartoon.png" alt="henry powering up as a dragon ball character">
 
 <!--its comment time-->
 
