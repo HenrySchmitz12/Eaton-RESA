@@ -23,17 +23,25 @@
 .container {  display: grid;
   grid-template-columns: 0.4fr 2.3fr 0.3fr;
   grid-template-rows: 0.9fr 1.8fr 0.3fr;
-  gap: 0px 15px;
+  gap: 25px 15px;
   grid-auto-flow: row;
 }
 
-.body { grid-area: 2 / 2 / 4 / 3; }
+.body { grid-area: 2 / 2 / 4 / 3; 
+background-color: rgb(30, 30, 56);
+}
 
-.head { grid-area: 1 / 2 / 2 / 3; }
+.head { grid-area: 1 / 2 / 2 / 3; 
+    background-color: rgb(30, 30, 56)
+    
+}
 
-.links { grid-area: 2 / 1 / 4 / 2; }
+.links { grid-area: 2 / 1 / 4 / 2; 
+    background-color: rgb(30, 30, 56)
+}
 
-.foot { grid-area: 4 / 2 / 4 / 3; }
+.foot { grid-area: 4 / 2 / 4 / 3; 
+    background-color: rgb(30, 30, 56)}
 
 
   </style>
@@ -43,7 +51,6 @@
 <body>
   <div class="container">
     <div class="body"><article>
-      <img src="#" alt="seahorses are fun" />
       <h1>SEAHORSE FACTS</h1>
       <h2>Name</h2>
       <p>The Latin name for seahorse is Hippocampus which means "Horse
@@ -83,7 +90,7 @@
         fleshy covering. They do not have scales.</p>
     </article></div>
     <div class="head"><header>
-      <h1>header info here</h1>
+      <h1>Seahorse Serenity!</h1>
       <img src="#" alt="seahorses are fun" />
     </header>
   </div>
